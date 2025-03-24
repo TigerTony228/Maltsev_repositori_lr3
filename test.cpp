@@ -52,7 +52,9 @@ void task3(float&x, int&y)
 
 void task4(float&x, int&y)
 {
-
+    int ans;
+    ans=x - trunc(x);
+    cout << ans << endl;
 }
 
 void menu()
