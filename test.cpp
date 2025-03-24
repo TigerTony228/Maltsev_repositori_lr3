@@ -37,7 +37,8 @@ void task1(float& x)
 
 void task2(int& y)
 {
-
+    cout << "введите натуральное число у: ";
+    proverka(y);
 }
 
 void task3(float&x, int&y)
