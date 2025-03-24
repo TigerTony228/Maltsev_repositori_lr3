@@ -43,7 +43,11 @@ void task2(int& y)
 
 void task3(float&x, int&y)
 {
+    float ans;
+    ans=pow(10,y);
+    ans=round(x*ans)/ans;
 
+    cout << ans << endl;
 }
 
 void task4(float&x, int&y)
